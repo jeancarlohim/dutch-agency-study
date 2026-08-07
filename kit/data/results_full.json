@@ -1,0 +1,1117 @@
+{
+ "born_narrow_old_instrument": {
+  "test": "Born narrow: always-focused vs always-broad (original 340, descriptive)",
+  "result": {
+   "median_a": 0.0,
+   "median_b": 0.0,
+   "mean_rank_diff": -0.324,
+   "p": 0.9725068732816796,
+   "n_a": 35,
+   "n_b": 135
+  }
+ },
+ "PRIMARY": {
+  "label": "JC cut-offs, growth_2y (percent)",
+  "cutoffs": {
+   "rise_pts": 0.15,
+   "flat_pts": 0.05,
+   "min_clients": 4,
+   "hi_share": 0.5,
+   "lo_share": 0.33,
+   "min_clients_snapshot": 4
+  },
+  "outcome": "growth_2y",
+  "concrete_proof": {
+   "test": "Concrete proof: specificity vs growth",
+   "rho": -0.05710191949256057,
+   "p": 0.36287407475057554,
+   "n": 256
+  },
+  "stacked_focus": {
+   "test": "Stacked focus: demonstrated niche depth vs growth",
+   "rho": 0.011715309119188706,
+   "p": 0.8520259981609123,
+   "n": 256
+  },
+  "said_it_and_showed_it": {
+   "industry_tierA_97": {
+    "test": "Said it and showed it: narrower vs matched twin (axis=industry, tier=('A',))",
+    "result": null,
+    "n_pairs": 0,
+    "pairs": []
+   },
+   "craft_tierA_97": {
+    "test": "Said it and showed it: narrower vs matched twin (axis=craft, tier=('A',))",
+    "result": null,
+    "n_pairs": 2,
+    "pairs": [
+     [
+      "begradient.com",
+      "anothersite.nl"
+     ],
+     [
+      "vizien.nl",
+      "rozepepers.nl"
+     ]
+    ]
+   },
+   "industry_allTiers_97": {
+    "test": "Said it and showed it: narrower vs matched twin (axis=industry, tier=None)",
+    "result": null,
+    "n_pairs": 0,
+    "pairs": []
+   },
+   "craft_allTiers_97": {
+    "test": "Said it and showed it: narrower vs matched twin (axis=craft, tier=None)",
+    "result": {
+     "median_a": 0.0,
+     "median_b": 0.0,
+     "mean_rank_diff": -1.0,
+     "p": 0.7005748562859285,
+     "n_a": 3,
+     "n_b": 3
+    },
+    "n_pairs": 3,
+    "pairs": [
+     [
+      "begradient.com",
+      "anothersite.nl"
+     ],
+     [
+      "betawerk.nl",
+      "elephantdesign.nl"
+     ],
+     [
+      "vizien.nl",
+      "rozepepers.nl"
+     ]
+    ]
+   },
+   "craft_allTiers_all155": {
+    "test": "Said it and showed it: narrower vs matched twin (axis=craft, tier=None)",
+    "result": {
+     "median_a": -0.04,
+     "median_b": 0.0,
+     "mean_rank_diff": -1.75,
+     "p": 0.4001499625093727,
+     "n_a": 4,
+     "n_b": 4
+    },
+    "n_pairs": 4,
+    "pairs": [
+     [
+      "begradient.com",
+      "anothersite.nl"
+     ],
+     [
+      "betawerk.nl",
+      "elephantdesign.nl"
+     ],
+     [
+      "klubb.nl",
+      "bsetmedia.nl"
+     ],
+     [
+      "vizien.nl",
+      "rozepepers.nl"
+     ]
+    ]
+   }
+  },
+  "showed_it_quietly": {
+   "industry": {
+    "test": "Showed it quietly: new-client mix narrowed vs flat (axis=industry)",
+    "result": {
+     "median_a": 0.0,
+     "median_b": 0.0,
+     "mean_rank_diff": -0.147,
+     "p": 0.9750062484378905,
+     "n_a": 22,
+     "n_b": 19
+    }
+   },
+   "craft": {
+    "test": "Showed it quietly: new-client mix narrowed vs flat (axis=craft)",
+    "result": {
+     "median_a": 0.0,
+     "median_b": 0.0,
+     "mean_rank_diff": -2.211,
+     "p": 0.6240939765058735,
+     "n_a": 36,
+     "n_b": 19
+    }
+   }
+  },
+  "narrow_right_now": {
+   "craft_PRIMARY": {
+    "test": "Narrow right now: concentrated today vs spread today (axis=craft)",
+    "result": {
+     "median_a": 0.0,
+     "median_b": 0.0,
+     "mean_rank_diff": 11.518,
+     "p": 0.37190702324418895,
+     "n_a": 187,
+     "n_b": 24
+    }
+   },
+   "industry": {
+    "test": "Narrow right now: concentrated today vs spread today (axis=industry)",
+    "result": {
+     "median_a": 0.0,
+     "median_b": 0.0,
+     "mean_rank_diff": -1.646,
+     "p": 0.8157960509872532,
+     "n_a": 95,
+     "n_b": 46
+    }
+   }
+  }
+ },
+ "outcome_growth_1y": {
+  "label": "growth_1y",
+  "cutoffs": {
+   "rise_pts": 0.15,
+   "flat_pts": 0.05,
+   "min_clients": 4,
+   "hi_share": 0.5,
+   "lo_share": 0.33,
+   "min_clients_snapshot": 4
+  },
+  "outcome": "growth_1y",
+  "concrete_proof": {
+   "test": "Concrete proof: specificity vs growth",
+   "rho": -0.06775713565448659,
+   "p": 0.27823066267602525,
+   "n": 258
+  },
+  "stacked_focus": {
+   "test": "Stacked focus: demonstrated niche depth vs growth",
+   "rho": -0.02494876634302475,
+   "p": 0.6900017244934749,
+   "n": 258
+  },
+  "said_it_and_showed_it": {
+   "industry_tierA_97": {
+    "test": "Said it and showed it: narrower vs matched twin (axis=industry, tier=('A',))",
+    "result": null,
+    "n_pairs": 0,
+    "pairs": []
+   },
+   "craft_tierA_97": {
+    "test": "Said it and showed it: narrower vs matched twin (axis=craft, tier=('A',))",
+    "result": null,
+    "n_pairs": 2,
+    "pairs": [
+     [
+      "begradient.com",
+      "anothersite.nl"
+     ],
+     [
+      "vizien.nl",
+      "rozepepers.nl"
+     ]
+    ]
+   },
+   "industry_allTiers_97": {
+    "test": "Said it and showed it: narrower vs matched twin (axis=industry, tier=None)",
+    "result": null,
+    "n_pairs": 0,
+    "pairs": []
+   },
+   "craft_allTiers_97": {
+    "test": "Said it and showed it: narrower vs matched twin (axis=craft, tier=None)",
+    "result": {
+     "median_a": 0.25,
+     "median_b": 0.0,
+     "mean_rank_diff": 0.0,
+     "p": 1.0,
+     "n_a": 3,
+     "n_b": 3
+    },
+    "n_pairs": 3,
+    "pairs": [
+     [
+      "begradient.com",
+      "anothersite.nl"
+     ],
+     [
+      "betawerk.nl",
+      "elephantdesign.nl"
+     ],
+     [
+      "vizien.nl",
+      "rozepepers.nl"
+     ]
+    ]
+   },
+   "craft_allTiers_all155": {
+    "test": "Said it and showed it: narrower vs matched twin (axis=craft, tier=None)",
+    "result": {
+     "median_a": 0.125,
+     "median_b": 0.0,
+     "mean_rank_diff": 0.0,
+     "p": 1.0,
+     "n_a": 4,
+     "n_b": 4
+    },
+    "n_pairs": 4,
+    "pairs": [
+     [
+      "begradient.com",
+      "anothersite.nl"
+     ],
+     [
+      "betawerk.nl",
+      "elephantdesign.nl"
+     ],
+     [
+      "klubb.nl",
+      "bsetmedia.nl"
+     ],
+     [
+      "vizien.nl",
+      "rozepepers.nl"
+     ]
+    ]
+   }
+  },
+  "showed_it_quietly": {
+   "industry": {
+    "test": "Showed it quietly: new-client mix narrowed vs flat (axis=industry)",
+    "result": {
+     "median_a": 0.0,
+     "median_b": 0.0,
+     "mean_rank_diff": 4.365,
+     "p": 0.23944013996500874,
+     "n_a": 22,
+     "n_b": 19
+    }
+   },
+   "craft": {
+    "test": "Showed it quietly: new-client mix narrowed vs flat (axis=craft)",
+    "result": {
+     "median_a": 0.0,
+     "median_b": 0.0,
+     "mean_rank_diff": -3.659,
+     "p": 0.41089727568107975,
+     "n_a": 36,
+     "n_b": 19
+    }
+   }
+  },
+  "narrow_right_now": {
+   "craft_PRIMARY": {
+    "test": "Narrow right now: concentrated today vs spread today (axis=craft)",
+    "result": {
+     "median_a": 0.0,
+     "median_b": 0.0,
+     "mean_rank_diff": 9.538,
+     "p": 0.44738815296175954,
+     "n_a": 188,
+     "n_b": 24
+    }
+   },
+   "industry": {
+    "test": "Narrow right now: concentrated today vs spread today (axis=industry)",
+    "result": {
+     "median_a": 0.0,
+     "median_b": 0.0,
+     "mean_rank_diff": -3.689,
+     "p": 0.6048487878030493,
+     "n_a": 95,
+     "n_b": 47
+    }
+   }
+  }
+ },
+ "outcome_people_added_2y": {
+  "label": "people added, 2y",
+  "cutoffs": {
+   "rise_pts": 0.15,
+   "flat_pts": 0.05,
+   "min_clients": 4,
+   "hi_share": 0.5,
+   "lo_share": 0.33,
+   "min_clients_snapshot": 4
+  },
+  "outcome": "added_2y",
+  "concrete_proof": {
+   "test": "Concrete proof: specificity vs growth",
+   "rho": -0.07397204798790605,
+   "p": 0.23824803773094216,
+   "n": 256
+  },
+  "stacked_focus": {
+   "test": "Stacked focus: demonstrated niche depth vs growth",
+   "rho": -0.02479432273989043,
+   "p": 0.6929694965317574,
+   "n": 256
+  },
+  "said_it_and_showed_it": {
+   "industry_tierA_97": {
+    "test": "Said it and showed it: narrower vs matched twin (axis=industry, tier=('A',))",
+    "result": null,
+    "n_pairs": 0,
+    "pairs": []
+   },
+   "craft_tierA_97": {
+    "test": "Said it and showed it: narrower vs matched twin (axis=craft, tier=('A',))",
+    "result": null,
+    "n_pairs": 2,
+    "pairs": [
+     [
+      "begradient.com",
+      "anothersite.nl"
+     ],
+     [
+      "vizien.nl",
+      "rozepepers.nl"
+     ]
+    ]
+   },
+   "industry_allTiers_97": {
+    "test": "Said it and showed it: narrower vs matched twin (axis=industry, tier=None)",
+    "result": null,
+    "n_pairs": 0,
+    "pairs": []
+   },
+   "craft_allTiers_97": {
+    "test": "Said it and showed it: narrower vs matched twin (axis=craft, tier=None)",
+    "result": {
+     "median_a": 0.0,
+     "median_b": 0.0,
+     "mean_rank_diff": -0.333,
+     "p": 1.0,
+     "n_a": 3,
+     "n_b": 3
+    },
+    "n_pairs": 3,
+    "pairs": [
+     [
+      "begradient.com",
+      "anothersite.nl"
+     ],
+     [
+      "betawerk.nl",
+      "elephantdesign.nl"
+     ],
+     [
+      "vizien.nl",
+      "rozepepers.nl"
+     ]
+    ]
+   },
+   "craft_allTiers_all155": {
+    "test": "Said it and showed it: narrower vs matched twin (axis=craft, tier=None)",
+    "result": {
+     "median_a": -0.5,
+     "median_b": 0.0,
+     "mean_rank_diff": -1.25,
+     "p": 0.6283429142714322,
+     "n_a": 4,
+     "n_b": 4
+    },
+    "n_pairs": 4,
+    "pairs": [
+     [
+      "begradient.com",
+      "anothersite.nl"
+     ],
+     [
+      "betawerk.nl",
+      "elephantdesign.nl"
+     ],
+     [
+      "klubb.nl",
+      "bsetmedia.nl"
+     ],
+     [
+      "vizien.nl",
+      "rozepepers.nl"
+     ]
+    ]
+   }
+  },
+  "showed_it_quietly": {
+   "industry": {
+    "test": "Showed it quietly: new-client mix narrowed vs flat (axis=industry)",
+    "result": {
+     "median_a": 0.0,
+     "median_b": 0.0,
+     "mean_rank_diff": -0.294,
+     "p": 0.939265183704074,
+     "n_a": 22,
+     "n_b": 19
+    }
+   },
+   "craft": {
+    "test": "Showed it quietly: new-client mix narrowed vs flat (axis=craft)",
+    "result": {
+     "median_a": 0.0,
+     "median_b": 0.0,
+     "mean_rank_diff": -2.251,
+     "p": 0.6215946013496626,
+     "n_a": 36,
+     "n_b": 19
+    }
+   }
+  },
+  "narrow_right_now": {
+   "craft_PRIMARY": {
+    "test": "Narrow right now: concentrated today vs spread today (axis=craft)",
+    "result": {
+     "median_a": 0.0,
+     "median_b": 0.0,
+     "mean_rank_diff": 10.296,
+     "p": 0.424893776555861,
+     "n_a": 187,
+     "n_b": 24
+    }
+   },
+   "industry": {
+    "test": "Narrow right now: concentrated today vs spread today (axis=industry)",
+    "result": {
+     "median_a": 0.0,
+     "median_b": 0.0,
+     "mean_rank_diff": -2.468,
+     "p": 0.7228192951762059,
+     "n_a": 95,
+     "n_b": 46
+    }
+   }
+  }
+ },
+ "SENSITIVITY": {
+  "min_clients_3": {
+   "label": "min clients 3",
+   "cutoffs": {
+    "rise_pts": 0.15,
+    "flat_pts": 0.05,
+    "min_clients": 3,
+    "hi_share": 0.5,
+    "lo_share": 0.33,
+    "min_clients_snapshot": 4
+   },
+   "outcome": "growth_2y",
+   "concrete_proof": {
+    "test": "Concrete proof: specificity vs growth",
+    "rho": 0.0019502909434743105,
+    "p": 0.9741759000924862,
+    "n": 278
+   },
+   "stacked_focus": {
+    "test": "Stacked focus: demonstrated niche depth vs growth",
+    "rho": 0.0030745110307365,
+    "p": 0.9593004285437311,
+    "n": 278
+   },
+   "said_it_and_showed_it": {
+    "industry_tierA_97": {
+     "test": "Said it and showed it: narrower vs matched twin (axis=industry, tier=('A',))",
+     "result": null,
+     "n_pairs": 0,
+     "pairs": []
+    },
+    "craft_tierA_97": {
+     "test": "Said it and showed it: narrower vs matched twin (axis=craft, tier=('A',))",
+     "result": null,
+     "n_pairs": 2,
+     "pairs": [
+      [
+       "begradient.com",
+       "anothersite.nl"
+      ],
+      [
+       "vizien.nl",
+       "rozepepers.nl"
+      ]
+     ]
+    },
+    "industry_allTiers_97": {
+     "test": "Said it and showed it: narrower vs matched twin (axis=industry, tier=None)",
+     "result": null,
+     "n_pairs": 0,
+     "pairs": []
+    },
+    "craft_allTiers_97": {
+     "test": "Said it and showed it: narrower vs matched twin (axis=craft, tier=None)",
+     "result": {
+      "median_a": 0.0,
+      "median_b": 0.0,
+      "mean_rank_diff": -1.0,
+      "p": 0.7005748562859285,
+      "n_a": 3,
+      "n_b": 3
+     },
+     "n_pairs": 3,
+     "pairs": [
+      [
+       "begradient.com",
+       "anothersite.nl"
+      ],
+      [
+       "betawerk.nl",
+       "elephantdesign.nl"
+      ],
+      [
+       "vizien.nl",
+       "rozepepers.nl"
+      ]
+     ]
+    },
+    "craft_allTiers_all155": {
+     "test": "Said it and showed it: narrower vs matched twin (axis=craft, tier=None)",
+     "result": {
+      "median_a": 0.0,
+      "median_b": 0.0,
+      "mean_rank_diff": -1.8,
+      "p": 0.3934016495876031,
+      "n_a": 5,
+      "n_b": 5
+     },
+     "n_pairs": 5,
+     "pairs": [
+      [
+       "begradient.com",
+       "anothersite.nl"
+      ],
+      [
+       "betawerk.nl",
+       "elephantdesign.nl"
+      ],
+      [
+       "klubb.nl",
+       "bsetmedia.nl"
+      ],
+      [
+       "leadi.nl",
+       "pre-pare.nl"
+      ],
+      [
+       "vizien.nl",
+       "rozepepers.nl"
+      ]
+     ]
+    }
+   },
+   "showed_it_quietly": {
+    "industry": {
+     "test": "Showed it quietly: new-client mix narrowed vs flat (axis=industry)",
+     "result": {
+      "median_a": 0.0,
+      "median_b": 0.0,
+      "mean_rank_diff": -0.147,
+      "p": 0.9750062484378905,
+      "n_a": 22,
+      "n_b": 19
+     }
+    },
+    "craft": {
+     "test": "Showed it quietly: new-client mix narrowed vs flat (axis=craft)",
+     "result": {
+      "median_a": 0.0,
+      "median_b": 0.0,
+      "mean_rank_diff": -4.121,
+      "p": 0.37940514871282177,
+      "n_a": 38,
+      "n_b": 20
+     }
+    }
+   },
+   "narrow_right_now": {
+    "craft_PRIMARY": {
+     "test": "Narrow right now: concentrated today vs spread today (axis=craft)",
+     "result": {
+      "median_a": 0.0,
+      "median_b": 0.0,
+      "mean_rank_diff": 11.518,
+      "p": 0.37190702324418895,
+      "n_a": 187,
+      "n_b": 24
+     }
+    },
+    "industry": {
+     "test": "Narrow right now: concentrated today vs spread today (axis=industry)",
+     "result": {
+      "median_a": 0.0,
+      "median_b": 0.0,
+      "mean_rank_diff": -1.646,
+      "p": 0.8157960509872532,
+      "n_a": 95,
+      "n_b": 46
+     }
+    }
+   }
+  },
+  "min_clients_5": {
+   "label": "min clients 5",
+   "cutoffs": {
+    "rise_pts": 0.15,
+    "flat_pts": 0.05,
+    "min_clients": 5,
+    "hi_share": 0.5,
+    "lo_share": 0.33,
+    "min_clients_snapshot": 5
+   },
+   "outcome": "growth_2y",
+   "concrete_proof": {
+    "test": "Concrete proof: specificity vs growth",
+    "rho": -0.07338093431938253,
+    "p": 0.2604915626488966,
+    "n": 237
+   },
+   "stacked_focus": {
+    "test": "Stacked focus: demonstrated niche depth vs growth",
+    "rho": 0.009632825035971569,
+    "p": 0.8827256792091915,
+    "n": 237
+   },
+   "said_it_and_showed_it": {
+    "industry_tierA_97": {
+     "test": "Said it and showed it: narrower vs matched twin (axis=industry, tier=('A',))",
+     "result": null,
+     "n_pairs": 0,
+     "pairs": []
+    },
+    "craft_tierA_97": {
+     "test": "Said it and showed it: narrower vs matched twin (axis=craft, tier=('A',))",
+     "result": null,
+     "n_pairs": 2,
+     "pairs": [
+      [
+       "begradient.com",
+       "anothersite.nl"
+      ],
+      [
+       "vizien.nl",
+       "rozepepers.nl"
+      ]
+     ]
+    },
+    "industry_allTiers_97": {
+     "test": "Said it and showed it: narrower vs matched twin (axis=industry, tier=None)",
+     "result": null,
+     "n_pairs": 0,
+     "pairs": []
+    },
+    "craft_allTiers_97": {
+     "test": "Said it and showed it: narrower vs matched twin (axis=craft, tier=None)",
+     "result": {
+      "median_a": 0.0,
+      "median_b": 0.0,
+      "mean_rank_diff": -1.0,
+      "p": 0.7005748562859285,
+      "n_a": 3,
+      "n_b": 3
+     },
+     "n_pairs": 3,
+     "pairs": [
+      [
+       "begradient.com",
+       "anothersite.nl"
+      ],
+      [
+       "betawerk.nl",
+       "elephantdesign.nl"
+      ],
+      [
+       "vizien.nl",
+       "rozepepers.nl"
+      ]
+     ]
+    },
+    "craft_allTiers_all155": {
+     "test": "Said it and showed it: narrower vs matched twin (axis=craft, tier=None)",
+     "result": {
+      "median_a": 0.0,
+      "median_b": 0.0,
+      "mean_rank_diff": -1.0,
+      "p": 0.7005748562859285,
+      "n_a": 3,
+      "n_b": 3
+     },
+     "n_pairs": 3,
+     "pairs": [
+      [
+       "begradient.com",
+       "anothersite.nl"
+      ],
+      [
+       "betawerk.nl",
+       "elephantdesign.nl"
+      ],
+      [
+       "vizien.nl",
+       "rozepepers.nl"
+      ]
+     ]
+    }
+   },
+   "showed_it_quietly": {
+    "industry": {
+     "test": "Showed it quietly: new-client mix narrowed vs flat (axis=industry)",
+     "result": {
+      "median_a": 0.0,
+      "median_b": 0.0,
+      "mean_rank_diff": 0.501,
+      "p": 0.9002749312671832,
+      "n_a": 21,
+      "n_b": 19
+     }
+    },
+    "craft": {
+     "test": "Showed it quietly: new-client mix narrowed vs flat (axis=craft)",
+     "result": {
+      "median_a": 0.0,
+      "median_b": 0.0,
+      "mean_rank_diff": -1.543,
+      "p": 0.7408147963009247,
+      "n_a": 35,
+      "n_b": 19
+     }
+    }
+   },
+   "narrow_right_now": {
+    "craft_PRIMARY": {
+     "test": "Narrow right now: concentrated today vs spread today (axis=craft)",
+     "result": {
+      "median_a": 0.0,
+      "median_b": 0.0,
+      "mean_rank_diff": 11.474,
+      "p": 0.3554111472131967,
+      "n_a": 177,
+      "n_b": 24
+     }
+    },
+    "industry": {
+     "test": "Narrow right now: concentrated today vs spread today (axis=industry)",
+     "result": {
+      "median_a": 0.0,
+      "median_b": 0.0,
+      "mean_rank_diff": -0.657,
+      "p": 0.931267183204199,
+      "n_a": 90,
+      "n_b": 46
+     }
+    }
+   }
+  },
+  "rise_10pts": {
+   "label": "rise 10 pts",
+   "cutoffs": {
+    "rise_pts": 0.1,
+    "flat_pts": 0.05,
+    "min_clients": 4,
+    "hi_share": 0.5,
+    "lo_share": 0.33,
+    "min_clients_snapshot": 4
+   },
+   "outcome": "growth_2y",
+   "concrete_proof": {
+    "test": "Concrete proof: specificity vs growth",
+    "rho": -0.05710191949256057,
+    "p": 0.36287407475057554,
+    "n": 256
+   },
+   "stacked_focus": {
+    "test": "Stacked focus: demonstrated niche depth vs growth",
+    "rho": 0.011715309119188706,
+    "p": 0.8520259981609123,
+    "n": 256
+   },
+   "said_it_and_showed_it": {
+    "industry_tierA_97": {
+     "test": "Said it and showed it: narrower vs matched twin (axis=industry, tier=('A',))",
+     "result": null,
+     "n_pairs": 1,
+     "pairs": [
+      [
+       "newrise.nl",
+       "afslagzuid.nl"
+      ]
+     ]
+    },
+    "craft_tierA_97": {
+     "test": "Said it and showed it: narrower vs matched twin (axis=craft, tier=('A',))",
+     "result": null,
+     "n_pairs": 2,
+     "pairs": [
+      [
+       "begradient.com",
+       "anothersite.nl"
+      ],
+      [
+       "vizien.nl",
+       "rozepepers.nl"
+      ]
+     ]
+    },
+    "industry_allTiers_97": {
+     "test": "Said it and showed it: narrower vs matched twin (axis=industry, tier=None)",
+     "result": null,
+     "n_pairs": 1,
+     "pairs": [
+      [
+       "newrise.nl",
+       "afslagzuid.nl"
+      ]
+     ]
+    },
+    "craft_allTiers_97": {
+     "test": "Said it and showed it: narrower vs matched twin (axis=craft, tier=None)",
+     "result": {
+      "median_a": -0.04,
+      "median_b": 0.0,
+      "mean_rank_diff": -1.5,
+      "p": 0.4786303424143964,
+      "n_a": 4,
+      "n_b": 4
+     },
+     "n_pairs": 4,
+     "pairs": [
+      [
+       "begradient.com",
+       "anothersite.nl"
+      ],
+      [
+       "betawerk.nl",
+       "elephantdesign.nl"
+      ],
+      [
+       "trimm.nl",
+       "webton.nl"
+      ],
+      [
+       "vizien.nl",
+       "rozepepers.nl"
+      ]
+     ]
+    },
+    "craft_allTiers_all155": {
+     "test": "Said it and showed it: narrower vs matched twin (axis=craft, tier=None)",
+     "result": {
+      "median_a": -0.08,
+      "median_b": 0.0,
+      "mean_rank_diff": -2.4,
+      "p": 0.21919520119970007,
+      "n_a": 5,
+      "n_b": 5
+     },
+     "n_pairs": 5,
+     "pairs": [
+      [
+       "begradient.com",
+       "anothersite.nl"
+      ],
+      [
+       "betawerk.nl",
+       "elephantdesign.nl"
+      ],
+      [
+       "klubb.nl",
+       "bsetmedia.nl"
+      ],
+      [
+       "trimm.nl",
+       "webton.nl"
+      ],
+      [
+       "vizien.nl",
+       "rozepepers.nl"
+      ]
+     ]
+    }
+   },
+   "showed_it_quietly": {
+    "industry": {
+     "test": "Showed it quietly: new-client mix narrowed vs flat (axis=industry)",
+     "result": {
+      "median_a": 0.0,
+      "median_b": 0.0,
+      "mean_rank_diff": 1.503,
+      "p": 0.7133216695826043,
+      "n_a": 26,
+      "n_b": 19
+     }
+    },
+    "craft": {
+     "test": "Showed it quietly: new-client mix narrowed vs flat (axis=craft)",
+     "result": {
+      "median_a": 0.0,
+      "median_b": 0.0,
+      "mean_rank_diff": -1.605,
+      "p": 0.7415646088477881,
+      "n_a": 42,
+      "n_b": 19
+     }
+    }
+   },
+   "narrow_right_now": {
+    "craft_PRIMARY": {
+     "test": "Narrow right now: concentrated today vs spread today (axis=craft)",
+     "result": {
+      "median_a": 0.0,
+      "median_b": 0.0,
+      "mean_rank_diff": 11.518,
+      "p": 0.37190702324418895,
+      "n_a": 187,
+      "n_b": 24
+     }
+    },
+    "industry": {
+     "test": "Narrow right now: concentrated today vs spread today (axis=industry)",
+     "result": {
+      "median_a": 0.0,
+      "median_b": 0.0,
+      "mean_rank_diff": -1.646,
+      "p": 0.8157960509872532,
+      "n_a": 95,
+      "n_b": 46
+     }
+    }
+   }
+  },
+  "rise_20pts": {
+   "label": "rise 20 pts",
+   "cutoffs": {
+    "rise_pts": 0.2,
+    "flat_pts": 0.05,
+    "min_clients": 4,
+    "hi_share": 0.5,
+    "lo_share": 0.33,
+    "min_clients_snapshot": 4
+   },
+   "outcome": "growth_2y",
+   "concrete_proof": {
+    "test": "Concrete proof: specificity vs growth",
+    "rho": -0.05710191949256057,
+    "p": 0.36287407475057554,
+    "n": 256
+   },
+   "stacked_focus": {
+    "test": "Stacked focus: demonstrated niche depth vs growth",
+    "rho": 0.011715309119188706,
+    "p": 0.8520259981609123,
+    "n": 256
+   },
+   "said_it_and_showed_it": {
+    "industry_tierA_97": {
+     "test": "Said it and showed it: narrower vs matched twin (axis=industry, tier=('A',))",
+     "result": null,
+     "n_pairs": 0,
+     "pairs": []
+    },
+    "craft_tierA_97": {
+     "test": "Said it and showed it: narrower vs matched twin (axis=craft, tier=('A',))",
+     "result": null,
+     "n_pairs": 2,
+     "pairs": [
+      [
+       "begradient.com",
+       "anothersite.nl"
+      ],
+      [
+       "vizien.nl",
+       "rozepepers.nl"
+      ]
+     ]
+    },
+    "industry_allTiers_97": {
+     "test": "Said it and showed it: narrower vs matched twin (axis=industry, tier=None)",
+     "result": null,
+     "n_pairs": 0,
+     "pairs": []
+    },
+    "craft_allTiers_97": {
+     "test": "Said it and showed it: narrower vs matched twin (axis=craft, tier=None)",
+     "result": null,
+     "n_pairs": 2,
+     "pairs": [
+      [
+       "begradient.com",
+       "anothersite.nl"
+      ],
+      [
+       "vizien.nl",
+       "rozepepers.nl"
+      ]
+     ]
+    },
+    "craft_allTiers_all155": {
+     "test": "Said it and showed it: narrower vs matched twin (axis=craft, tier=None)",
+     "result": {
+      "median_a": 0.0,
+      "median_b": 0.0,
+      "mean_rank_diff": -1.0,
+      "p": 0.7005748562859285,
+      "n_a": 3,
+      "n_b": 3
+     },
+     "n_pairs": 3,
+     "pairs": [
+      [
+       "begradient.com",
+       "anothersite.nl"
+      ],
+      [
+       "klubb.nl",
+       "bsetmedia.nl"
+      ],
+      [
+       "vizien.nl",
+       "rozepepers.nl"
+      ]
+     ]
+    }
+   },
+   "showed_it_quietly": {
+    "industry": {
+     "test": "Showed it quietly: new-client mix narrowed vs flat (axis=industry)",
+     "result": {
+      "median_a": 0.0,
+      "median_b": 0.0,
+      "mean_rank_diff": -0.205,
+      "p": 0.9627593101724569,
+      "n_a": 20,
+      "n_b": 19
+     }
+    },
+    "craft": {
+     "test": "Showed it quietly: new-client mix narrowed vs flat (axis=craft)",
+     "result": {
+      "median_a": 0.0,
+      "median_b": 0.0,
+      "mean_rank_diff": -1.96,
+      "p": 0.6283429142714322,
+      "n_a": 29,
+      "n_b": 19
+     }
+    }
+   },
+   "narrow_right_now": {
+    "craft_PRIMARY": {
+     "test": "Narrow right now: concentrated today vs spread today (axis=craft)",
+     "result": {
+      "median_a": 0.0,
+      "median_b": 0.0,
+      "mean_rank_diff": 11.518,
+      "p": 0.37190702324418895,
+      "n_a": 187,
+      "n_b": 24
+     }
+    },
+    "industry": {
+     "test": "Narrow right now: concentrated today vs spread today (axis=industry)",
+     "result": {
+      "median_a": 0.0,
+      "median_b": 0.0,
+      "mean_rank_diff": -1.646,
+      "p": 0.8157960509872532,
+      "n_a": 95,
+      "n_b": 46
+     }
+    }
+   }
+  }
+ }
+}

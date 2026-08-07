@@ -1,0 +1,14 @@
+{
+ "agency_windows": 1345,
+ "axes_using_REAL_mapping": [
+  "industry",
+  "craft",
+  "job",
+  "channel",
+  "model",
+  "stage",
+  "geo"
+ ],
+ "axes_using_PLACEHOLDER": [],
+ "reportable": true
+}
