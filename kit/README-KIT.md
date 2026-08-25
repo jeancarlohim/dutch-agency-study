@@ -34,6 +34,9 @@ scattered (JC's definition v2).
 | kit_bucket_counts.csv | per agency × window × axis: distinct clients per bucket (named and anonymous separated) |
 | kit_metric_kinds.csv | per agency × window: counts per kind of tangible result |
 | results_full.json | the six frozen tests + sensitivity runs, full output |
+| 2026-07-29-salesnav-employees-progress.csv | IMPORTED 25 Aug from study-outreach/outputs. The July Sales Nav headcount pull. Covers a DIFFERENT population from growth.csv — the two sets are disjoint |
+| 2026-08-25-growth-original340-merged.csv | growth for the 36 original340 agencies that are real domains (the other 261 are personal LinkedIn handles). Built from the file above; growth.csv itself is untouched |
+| 2026-08-25-dapper-cases-page.txt | raw text of dapper.agency/cases, fetched 25 Aug, as evidence for the 28-tile / 29-numbered count |
 
 ## The rules that bind any new number
 
@@ -51,11 +54,25 @@ scattered (JC's definition v2).
 test-results (+ 3 addendums) · mapping-coverage (accuracy + noise floor) ·
 proof-age-size-grid · distributions-for-cutoffs · the July docs (thesis test,
 alignment finding, lifecycle, article angle) · label audit · pre-registration ·
-decisions · the full RUNLOG.
+decisions · the full RUNLOG · 2026-08-24-ARTICLE-NUMBERS (every article figure
+recomputed, with what does and does not reproduce).
 
 ## code/ — the exact scripts behind every number
 
 stats_lib (permutation tests) · measures.py (frozen engine) ·
 run_the_six_tests.py (frozen tests) · run_tests.py (JC's cut-offs) ·
 rules.py (the keyword mapper) · build_growth.py · distributions.py ·
-noise_test.py (the 40-per-side floor).
+noise_test.py (the 40-per-side floor) · article_numbers.py (every article
+figure, one run, writes docs/2026-08-24-ARTICLE-NUMBERS.md).
+
+## Two proof instruments — they disagree, always say which
+
+DEDUP = `measures_v2.share_numeric` > 0, a number on a deduped NAMED client. The six
+frozen tests and the 44% vs 26% headline use this. ANYROW = any case row has
+`has_number` = Y, anonymous rows included. The B-section counts use this (46% vs 24%).
+Never quote a proof number without naming the instrument. See
+docs/2026-08-24-ARTICLE-NUMBERS.md.
+
+Also: `kit_metric_kinds.csv` is NOT a source for any per-agency count. It undercounts
+every agency whose proof is anonymous (Dapper: it says 8 cases / 2 numeric; the live
+site carries 28 numbered tiles).

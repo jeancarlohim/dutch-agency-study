@@ -1,0 +1,37 @@
+domain,matched_domain,salesnav_row,salesnav_name,employees_now,growth_6m,growth_1y,growth_2y,open_roles,status,notes,cohort,n_distinct_clients,source
+0to9.nl_388,0to9.nl,381,0to9,44,0%,+10%,+18%,1,found,"LinkedIn name 0to9 | Values-Driven Creativity, exact match, Advertising Services",original340,7,2026-07-29-salesnav-employees-progress.csv
+100procent.nl_389,100procent.nl,382,100procent,25,+4%,-26%,-28%,1,found,"LinkedIn name 100procent | United Playgrounds, exact match, Marketing Services",original340,4,2026-07-29-salesnav-employees-progress.csv
+ara.nl_390,ara.nl,383,ARA,,,,,,not_found,"name too generic (87 results, unrelated industries e.g. Transportation/Logistics); domain ara.nl search surfaced only Ara/araontwerpt.nl, a 1-employee architecture drafting office - different domain and industry, not a marketing agency match",original340,10,2026-07-29-salesnav-employees-progress.csv
+artdcom.com_432,artdcom.com,424,Artdcom,8,+14%,+14%,+60%,0,found,"Exact name match ArtdCom, Advertising Services, full-service digital marketing agency",original340,1,2026-07-29-salesnav-employees-progress.csv
+brandpotential.com_391,brandpotential.com,384,Brand Potential,73,+1%,+12%,+4%,0,found,"LinkedIn name Brand Potential Benelux, exact match, Marketing Services",original340,29,2026-07-29-salesnav-employees-progress.csv
+burobruut.nl_392,burobruut.nl,385,Buro Bruut,9,+28%,+125%,+200%,0,found,"Exact name match, Advertising Services; strong headcount growth story (+200% over 2y)",original340,5,2026-07-29-salesnav-employees-progress.csv
+campagne.nl_394,campagne.nl,387,Campagne,40,+2%,+2%,+5%,0,found,"Exact top match, Advertising Services",original340,12,2026-07-29-salesnav-employees-progress.csv
+clubgeist.nl_395,clubgeist.nl,388,Clubgeist,15,-25%,-11%,-16%,0,found,"Exact name match, Advertising Services; shrinking headcount across all periods",original340,41,2026-07-29-salesnav-employees-progress.csv
+dapper.agency_396,dapper.agency,389,Dapper,66,+8%,+35%,+132%,8,found,"Exact match confirmed via website link (dapper.agency); Dapper - the demand agency, Advertising Services (B2B demand gen); numbers double-checked via two independent find queries, both consistent; benchmark exceptional growth case as flagged - +132% over 2y, actively hiring (8 open roles)",original340,8,2026-07-29-salesnav-employees-progress.csv
+dasburo.nl_397,dasburo.nl,390,Das Buro,14,-6%,-6%,+7%,0,found,"LinkedIn name Das Buro | Branding agency, exact match, Advertising Services",original340,4,2026-07-29-salesnav-employees-progress.csv
+digitalgrowthagency.nl_398,digitalgrowthagency.nl,391,Digital Growth Agency,54,+14%,+10%,+42%,5,found,Exact name match; industry tag Technology/Internet but About describes digital growth marketing agency,original340,7,2026-07-29-salesnav-employees-progress.csv
+digitalimpact.nl_399,digitalimpact.nl,392,Digital Impact,32,+6%,+10%,+18%,1,found,"Exact name match; industry tag Information Technology & Services, About describes marketing+technology+AI convergence agency",original340,10,2026-07-29-salesnav-employees-progress.csv
+dpdk.com_400,dpdk.com,393,DPDK,44,-18%,-18%,-22%,3,found,"Exact name match, Marketing Services; shrinking headcount across all periods but actively hiring (3 open roles)",original340,13,2026-07-29-salesnav-employees-progress.csv
+e-heroes.com_401,e-heroes.com,394,E-heroes,5,0%,0%,-16%,0,found,"Exact name match, Advertising Services",original340,3,2026-07-29-salesnav-employees-progress.csv
+eversendegier.nl_402,eversendegier.nl,395,Evers + de Gier,5,0%,+25%,+25%,0,found,"Exact name match, Design Services, branding/digital agency Rotterdam",original340,50,2026-07-29-salesnav-employees-progress.csv
+fabrique.nl_403,fabrique.nl,396,Fabrique,132,+3%,-7%,-2%,0,found,"Exact top match, Design (strategic design agency)",original340,25,2026-07-29-salesnav-employees-progress.csv
+flatland.nl_404,flatland.nl,397,Flatland,28,0%,+7%,0%,0,found,"Exact top match, Design Services, design-driven consultancy",original340,9,2026-07-29-salesnav-employees-progress.csv
+friendsagency.com_405,friendsagency.com,398,Friends for Brands,19,+11%,+26%,+26%,0,found,"Exact match, Friends for Brands | Certified B Corp, Advertising Services, creative agency founded 2013; strong growth",original340,8,2026-07-29-salesnav-employees-progress.csv
+harborn.com_406,harborn.com,399,Harborn digital,39,-9%,+14%,+25%,2,found,"Exact name match, digital agency (Internet Publishing category)",original340,26,2026-07-29-salesnav-employees-progress.csv
+heartheyouth.com_408,heartheyouth.com,401,Hear The Youth,14,0%,7%,40%,0,found,,original340,12,2026-07-29-salesnav-employees-progress.csv
+level-level.com_409,level-level.com,402,Level Level,29,11%,11%,11%,0,low_confidence,"industry listed as Technology/Web dev (WordPress agency), not classic marketing/creative agency",original340,23,2026-07-29-salesnav-employees-progress.csv
+nijgh.com_412,nijgh.com,404,Nijgh,39,-7%,-9%,0%,3,found,,original340,28,2026-07-29-salesnav-employees-progress.csv
+norday.nl_413,norday.nl,405,Norday,54,0%,8%,17%,0,found,"LinkedIn page still listed as GRRR (now Norday) - merged entity, formerly GRRR+IN10 rebrand",original340,10,2026-07-29-salesnav-employees-progress.csv
+pionect.com_414,pionect.com,406,Pionect,16,-5%,0%,23%,2,found,"industry listed as IT Services/IT Consulting (digital/dev agency), not classic marketing agency",original340,10,2026-07-29-salesnav-employees-progress.csv
+prsc.nl_415,prsc.nl,407,PRSC. Vastgoedcommunicatie,21,10%,10%,23%,0,found,,original340,7,2026-07-29-salesnav-employees-progress.csv
+q42.nl_416,q42.nl,408,Q42,125,-1%,3%,14%,11,found,,original340,94,2026-07-29-salesnav-employees-progress.csv
+rauwcc.nl_417,rauwcc.nl,409,RAUWcc,19,0%,+11%,-5%,0,found,,original340,25,2026-07-29-salesnav-employees-progress.csv
+redkiwi.com_418,redkiwi.com,410,Redkiwi,55,+1%,-1%,+3%,0,found,,original340,22,2026-07-29-salesnav-employees-progress.csv
+rotterdamcs.nl_419,rotterdamcs.nl,411,Rotterdam CS,6,+200%,N/A (overflow artifact),N/A (overflow artifact),0,found,1y and 2y growth hit INT_MAX 2147483647% divide-by-zero bug,original340,17,2026-07-29-salesnav-employees-progress.csv
+rox.nl_420,rox.nl,412,ROX,4,0%,0%,0%,0,found,"matched via LinkedIn name ""ROX Branding | Fullservice branding & marketing agency"" (generic ROX name had many results, disambiguated by name/industry match)",original340,25,2026-07-29-salesnav-employees-progress.csv
+somention.com_422,somention.com,414,Somention,55,+7%,+7%,+1%,5,found,,original340,29,2026-07-29-salesnav-employees-progress.csv
+studio10am.nl_423,studio10am.nl,415,STUDIO 10am,2,+100%,+100%,+100%,0,found,"very small base (2 employees), 100% reflects doubling from 1",original340,9,2026-07-29-salesnav-employees-progress.csv
+studionul.com_424,studionul.com,416,Studio Nul,,,,,,not_found,"name search returned unrelated companies (Studio Vogels, Blik van Boven, etc), domain search studionul.com returned 0 results",original340,4,2026-07-29-salesnav-employees-progress.csv
+studiopiranha.com_425,studiopiranha.com,417,Studio Piranha,4,+33%,+33%,+100%,0,found,"Exact name match, Design Services, Studio Piranha | Merkdesign bureau",original340,5,2026-07-29-salesnav-employees-progress.csv
+trichis.nl_428,trichis.nl,420,Trichis,17,+13%,-5%,0%,0,found,"Exact match Trichis Content & Creatie, Marketing Services",original340,36,2026-07-29-salesnav-employees-progress.csv
+yescontent.nl_430,yescontent.nl,422,YesContent,5,0%,0%,0%,0,found,"Exact name match, Advertising Services, branding studio",original340,18,2026-07-29-salesnav-employees-progress.csv

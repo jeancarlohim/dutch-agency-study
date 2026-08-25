@@ -1,0 +1,427 @@
+row_num,name,domain,employees_now,growth_6m,growth_1y,growth_2y,open_roles,status,notes
+1,FirstRing,firstring.io/en,3,0%,+50%,+200%,0,found,
+2,Brandmerck,brandmerck.nl,26,0%,+36%,+13%,0,found,
+3,We Know Digital Marketing,weknowdigitalmarketing.nl,3,0%,+200%,+200%,0,found,
+4,Marketence,marketence.nl,2,-33%,-33%,-33%,0,found,
+5,Memorians (dataset name; real LinkedIn co is Admosfeer),admosfeer.nl,2,0%,0%,-33%,0,found,"Name mismatch in source data -- LinkedIn contact Judith de Greef runs Admosfeer (matches domain); Memorians is her separate memorial-jewelry venture, not this agency"
+6,MA-Experts,maexperts.nl,2,0%,0%,new (0->2),0,found,"2y growth showed int-overflow sentinel value, meaning 0 employees 2yrs ago -- essentially a brand new company"
+7,Goals Arbeidsmarketing,goals.nl,,,,,,not_found,"name too generic, no clean Sales Nav match"
+8,Studio Het Nest,videobird.nl,2,0%,0%,0%,0,found,"flat, stable, no growth in 2yrs"
+9,SocialBack,socialback.nl,2,0%,0%,0%,0,found,"flat, stable; job openings panel had no data to render (likely 0/empty state)"
+10,Ad Growth Digital,adgrowthdigital.com,,,,,,not_found,"name+domain both too generic, 11K+ unrelated results, no exact match surfaced"
+11,Cristel Zwart,conceptacademie.nl,,,,,,not_found,"no company page found under name, domain, or contact name"
+12,OFFFF Branding & Design Studio,offff.studio,9,+10%,0%,+28%,0,found,Rotterdam
+13,Omelette du Fromage,omelettedufromage.nl,14,+16%,+16%,+16%,0,found,
+14,HH-Shops,brandways.nl,,,,,,not_found,
+15,WEARE,weare-cg.com,2,0%,0%,+33%,0,found,
+16,Wander Journeys,wanderjourneys.com,,,,,,not_found,
+17,Naru Core,narucore.com,,,,,,not_found,
+18,New Challenge | Creative & Digital Agency,newchallengeagency.com,5,+16%,+16%,0%,0,found,Rotterdam
+19,Kodros | Financials voor gemeenten,kodros.nl,52,+23%,+62%,+92%,0,found,strong real growth story
+20,BONANA,bonana.com,34,+17%,+36%,+183%,8,found,"strong growth + actively hiring, second Dapper-tier story"
+21,Dubbel Media,dubbelmedia.nl,15,0%,0%,0%,0,found,"flat, stable"
+22,Nexst Group,nexstsocials.nl,,,,,,not_found,
+23,FONDERIE,fonderieagency.com,,,,,,not_found,"only match is Software Development co in Belgium, industry mismatch, not confident it is the same company"
+24,GraphicGenie B.V.,graphicgenie.nl,2,+100%,+100%,+100%,0,found,"from earlier same-day pull; solo-to-two shop, 1->2"
+25,Timeless Design,timelessdesign.nl,,,,,,not_found,"confirmed twice: true solo operator, no LinkedIn company page exists"
+26,Samen Online Marketing (Bouwman Marketing),bouwmanmarketing.nl,1,,,,0,found,"from earlier same-day pull; solo operator, page is founder Jessica Bouwman personal profile not a company"
+27,Sticky Tooling,stickytooling.com,2,0%,0%,0%,0,found,"from earlier same-day pull; flat, stable"
+28,Humans,humans.nl,,,,,,not_found,name too generic to isolate in Sales Nav search
+29,Agency 6,agency6.nl,,,,,,not_found,"generic name, multiple unrelated companies, no domain confirmation"
+30,DARO Digital,darodigitalmedia.com,1,,,,,low_confidence,"Advertising Services 1 employee, plausible match but no About text/location to confirm domain"
+31,Emper,emper.nl,6,+20%,0%,+20%,0,found,
+32,Growth Partners Rotterdam,growthpartnersrotterdam.com,5,0%,+25%,+66%,1,found,"Rotterdam, real growth + hiring"
+33,Growth Maximizers,growthmaximizers.com,9,0%,+12%,+28%,0,found,
+34,TriplePro Online Marketing bv,onlinemarketing.triplepro.nl,,,,,,blocked,found the search result but click-through would not register via text-only methods; needs revisit
+35,Bitch the agency,bitchtheagency.com,,,,,,blocked,"click not registering via text-only methods, needs revisit"
+36,Pirlo Strategy,pirlostrategy.com,2,+50%,+50%,+100%,0,found,
+34,TriplePro Online Marketing bv,onlinemarketing.triplepro.nl,41,+2%,+10%,+24%,1,found,SUPERSEDES earlier blocked row 34 -- resolved with screenshot+coordinate click
+35,Bitch the agency,bitchtheagency.com,13,0%,+30%,+44%,0,found,SUPERSEDES earlier blocked row 35
+37,Kick Off Digital,kickoffdigital.nl,,,,,,not_found,"name too generic (360 results), domain search hit wrong company"
+38,Swipocratie,swipocratie.nl,1,,,,,found,solo operator confirmed
+39,BORING,weareboring.nl,,,,,,not_found,"name too generic, 914 unrelated results, no Dutch match confirmed"
+40,IkCommuniceer,ikcommuniceer.nu,2,0%,0%,0%,0,found,
+41,Sticky Presentations,stickypresentations.com,7,0%,0%,0%,0,found,
+42,Smaile,sendtmedia.nl,22,,,,,low_confidence,"only NL match is an AI-consulting Smaile, industry mismatch vs sendtmedia.nl domain, not confident same company"
+43,SnappySocials,snappysocials.nl,,,,,,not_found,0 results in Netherlands
+44,Volters,volters.nl,,,,,,not_found,"only NL match is a renewable energy company, industry mismatch"
+45,Haan Digital,haandigital.nl,9,+10%,+18%,+43%,0,found,real growth
+46,Wpmaatjes.nl,wpmaatjes.nl,,,,,,not_found,"0 results in Netherlands, no LinkedIn presence"
+47,Roltex | Slimme Bedrijfsvoering,roltex.nl,4,+20%,+20%,+20%,0,found,
+48,TAQQLE,taqqle.com,2,0%,-33%,-33%,0,found,"Rotterdam, shrinking"
+49,#spon Influencer Marketing,hashtagspon.com/en/home,13,0%,+44%,+30%,0,found,real growth
+50,TEAMNR.ONE,teamnr.one,,,,,,not_found,0 results in Netherlands
+51,JCM Context,jcm.nl,3,0%,0%,0%,0,found,
+52,Stijnrolink.nl,stijnrolink.nl,1,,,,,found,solo operator confirmed
+53,matchfluencer,matchfluencer.nl,6,+14%,+14%,+50%,0,found,real growth
+54,Mailing Masters,mailingmasters.nl,4,0%,0%,0%,0,found,
+55,LobbyLeerlijn,lobbyleerlijn.nl,4,0%,0%,0%,0,found,
+56,Bureau Blanco,bureaublanco.nl,18,0%,-14%,-10%,1,found,shrinking but still hiring 1 role
+57,bureau Wapenfeit,wapenfeit.com,4,0%,0%,0%,0,found,
+58,CreaUnit,creaunit.com,6,0%,0%,+20%,0,found,
+59,Neinus,neinus.nl,3,0%,+200%,+200%,0,found,real growth 1->3
+60,Beroepsorganisatie Nederlandse Ontwerpers (BNO),bno.nl,67,0%,0%,+17%,5,found,"trade association not agency, but real growth+hiring"
+61,Studio TOMIS,tomis.design,5,0%,0%,0%,0,found,Utrecht
+62,Online Matters,onlinematters.nl,2,0%,0%,0%,0,found,
+63,Kersvers Digital,kersversdigital.nl,13,+8%,+44%,+30%,0,found,real growth
+64,nextlane®,nextlaneagency.nl,21,+23%,+75%,+162%,0,found,"major growth story, Dapper/BONANA-tier"
+65,Affecty.nl,affecty.nl,3,0%,+25%,+25%,0,found,
+66,MediaMere,mediamere.com,6,+20%,0%,0%,0,found,
+67,GraagGoedOnline.nl B.V.,graaggoedonline.nl,9,+10%,+10%,0%,0,found,
+68,marcdegeus.com,marcdegeus.com,,,,,,not_found,"0 results, likely personal-brand site with no company page"
+69,ZUURSTOF,zuurstof.nl,3,0%,0%,0%,0,found,
+70,mPower Digital,mpowerdigital.nl,5,+66%,+66%,+66%,0,found,recent jump
+71,PACT Public Affairs,pactpublicaffairs.nl,1,,,,,found,solo operator confirmed
+72,better brands,betterbrands.nl,,,,,,not_found,"name too generic, no exact NL match"
+73,De Werkgeversarchitecten,dewerkgeversarchitecten.nl,2,0%,0%,0%,0,found,
+74,Suwemo,suwemo.nl,4,+20%,+33%,+100%,0,found,"Rotterdam, real growth"
+75,Studio WerkenBij,studiowerkenbij.nl,7,0%,+12%,+12%,0,found,
+76,010 Coding Collective,010codingcollective.com,3,0%,0%,+25%,0,found,Rotterdam
+77,Buro Dertig,burodertig.nl,4,0%,0%,+33%,0,found,
+78,Let's Peak,letspeak.nl,,,,,,not_found,"name generic, domain search 0 results"
+79,The Skill Studio,theskillstudio.nl,2,0%,0%,0%,0,found,
+80,RVS Marketing | B2B Marketing & Sales,rvsmarketing.nl,23,0%,0%,+20%,2,found,real growth + hiring
+81,Stichting Goejenhandel,goejenhandel.nl,,,,,,not_found,"0 results for name and domain search, NL filter"
+82,Minds,minds.nl,6,0%,+20%,+200%,0,found,"exact name match, Marketing Services category"
+83,Right Marktonderzoek & Advies BV,rightmarktonderzoek.nl,12,0%,0%,0%,0,found,"exact name match, Market Research category"
+84,ZO!interieurprojecten BV,zointerieurprojecten.nl,2,0%,0%,0%,0,found,"exact name match, Interior Design category"
+85,Touch Local Loyalty,touchlocalloyalty.com/en,38,-2%,-17%,-26%,2,found,"LinkedIn shows as Local Loyalty Group, exact business match"
+86,Marts & Mounts,martsmounts.com,,,,,,not_found,"0 results for name and domain search, NL filter"
+87,Enson,enson.nl,20,0%,0%,+11%,0,found,"exact name match, only 1 result; Printing Services category not marketing agency but matches expected NL company"
+88,"B2Design - Websites, webshops en (web)design",b2design.nl,12,-7%,+9%,+33%,2,found,"exact name match, Technology/Web Design category"
+89,Ontwerpstudio Reuring,reuring.studio,7,+40%,+133%,+133%,0,found,"LinkedIn shows as Studio Reuring, Graphic Design, About text matches domain reuring.studio exactly"
+90,Matthijssen Lichtreclame,matthijssenlichtreclame.nl,5,-16%,-16%,0%,0,found,"exact name match, Advertising Services category"
+91,Clickhorse Marketing,clickhorse-marketing.com,7,-12%,0%,0%,0,found,"found via domain search, exact match, Advertising Services"
+92,Blade-made,blade-made.com,4,0%,0%,+33%,0,found,"exact name match (Blade-Made), Manufacturing category"
+93,NEXT Automotive,nextautomotive.nl,3,0%,+50%,0%,0,found,"exact name match, first of 83 results, Marketing Services category matches agency profile"
+94,MCR Retailminds BV,mcr-retailminds.nl,7,0%,+16%,0%,0,found,"exact name match, Market Research category"
+95,Brand Creatives,brandcreatives.nl,25,+19%,-3%,+13%,0,found,"exact name match among 2K+ generic results, Advertising Services category"
+96,Red Onion Creative Collective,redonion.nl,,,,,,not_found,"0 results for name and domain search, NL filter"
+97,SmartAds Agency,smartadsagency.com,6,0%,+20%,+20%,0,found,"exact name match, Advertising Services category"
+98,Merkmanagers,merkmanagers.nl,6,-33%,-33%,-14%,0,found,"exact name match, Marketing Services category"
+99,Dok Online,dokonline.nl,7,0%,-30%,-12%,1,found,"LinkedIn shows as Dok Online | Semantic SEO Expert / Google Experts, Advertising Services"
+100,Wemessage Web & Marketing,wemessage.nl,29,0%,+11%,+26%,0,found,"LinkedIn shows as Wemessage Web & Marketing, exact match confirmed"
+101,Winter Webcare,winterwebcare.nl,,,,,,not_found,"0 results for name and domain search, NL filter"
+102,workcode.nl,workcode.nl,,,,,,not_found,"0 results for name and domain search, NL filter"
+103,Whale Advertising,whale-advertising.com,,,,,,not_found,"0 results for name and domain search, NL filter"
+104,Endeavour,grip.endeavour.nl,157,+1%,0%,-1%,9,found,"confirmed via website link endeavour.nl matches grip.endeavour.nl root domain, Advertising Services"
+105,NS Advertising,ns-advertising.nl,,,,,,not_found,"no exact match for name or domain search, NL filter"
+106,Motif Concept & Design,motif.nl,,,,,,not_found,"0 results for name and domain search, NL filter"
+107,Buro FRANKLY.,burofrankly.nl,8,-11%,+60%,+60%,1,found,"exact name match, Marketing Services category"
+108,Social Next Agency,socialnextagency.nl,,,,,,not_found,"name too generic (85 fuzzy results, no exact match), domain search 0 results"
+109,de Media Balie,demediabalie.nl,12,+9%,+20%,+20%,0,found,"exact name match, Advertising Services category"
+110,HOUSE of Campaigns,houseofcampaigns.com,6,-14%,-14%,+20%,0,found,"exact name match, first of 104 results, Advertising Services category"
+111,ALIVE,alivemarketing.nl,,,,,,not_found,"name too generic (22 fuzzy results, no exact ALIVE match), domain search 0 results"
+112,Crispy Concepts,crispyconcepts.nl,,,,,,not_found,"0 results for name and domain search, NL filter"
+113,ZoonStudio,zoonstudio.nl,3,0%,0%,+50%,0,found,"exact name match, only 1 result"
+114,Blauwr,blauwr.nl,5,0%,-16%,-37%,0,found,"About text explicitly mentions https://blauwr.nl/, Advertising Services (2nd of 2 same-name results)"
+115,Beeldprikkels,beeldprikkels.nl,7,-22%,-22%,-30%,0,found,"exact name match, Graphic Design category"
+116,Doorbijters,doorbijters.nl,6,0%,-14%,-25%,1,found,"exact name match, Advertising Services category"
+117,dotGO,dotgo.nl,7,0%,0%,0%,0,found,"exact name match, Advertising Services category"
+118,Factor 12,factor12.nl,6,0%,0%,0%,0,found,"exact name match, Graphic Design category"
+119,Wakkr Merkburo,wakkr.com,,,,,,not_found,no exact match for name (386 fuzzy results for wakker) or domain search
+120,ZeeDesign Grafische Verbeelding,zeedesign.nl,9,0%,0%,-10%,0,found,"exact full-name match, Graphic Design category"
+121,Brandeniers,brandeniers.nl,17,0%,0%,+6%,0,found,"exact name match, Advertising Services category"
+122,StudioPlay®,studio-play.nl,2,0%,+100%,+100%,0,found,"exact name match (StudioPlay®), Design Services category"
+123,Hoeanders,hoeanders.nl,2,0%,0%,0%,0,found,"exact name match, PR/Communications category"
+124,Sightkick,sightkick.nl,3,-25%,-40%,-25%,0,found,"exact name match (SightKick), Advertising Services category"
+125,Heftiger merkenbouwers,heftiger.nl,2,0%,0%,0%,0,found,"exact full-name match, Design category"
+126,Braincandy - Online & Marketing,braincandy.nl,5,0%,25%,0%,0,found,
+127,Funnel Optimizers,funneloptimizers.nl,7,0%,-42%,-33%,0,found,matches noted shrinking pattern
+128,Doorrood,doorrood.com,14,-6%,7%,0%,0,found,
+129,ContentToday,contenttoday.nl,2,0%,0%,0%,0,found,
+130,WebProfit,webprofit.nl,6,-14%,0%,0%,0,found,
+131,Online Klik,onlineklik.nl,25,-7%,-16%,4%,1,found,
+132,P&P Company,web-wings.nl,12,0%,9%,20%,0,found,
+133,OakOriginal,webcommitment.nl,5,0%,0%,0%,0,found,name in CSV is OakOriginal but LinkedIn company is WebCommitment; matched by domain
+134,RAFT - Online stroomversnellers,raft.nl,11,0%,20%,33%,0,found,
+135,Viesrood,viesrood.nl,8,0%,0%,0%,0,found,
+136,Creative Studio Jess,creativestudiojess.com,,,,,,not_found,no exact match on name or domain search
+137,Magnet Branding,magnet.nl,1,,,,,found,solo operator confirmed; LinkedIn company is MAGNET
+138,Brandmates,brandmates.nl,4,33%,0%,0%,0,found,
+139,Home of Happy Brands,homeofhappybrands.nl,9,0%,0%,0%,0,found,
+140,Citeerbaar,mixxdmedia.com,1,,,,,found,"solo operator confirmed; LinkedIn company is Citeerbaar (IT Services/AI-search visibility), CSV domain mixxdmedia.com likely a rebrand"
+141,MOOVV,newayve.com,1,,,,,found,solo operator confirmed
+142,Purple Media,purplemedia.nl,11,0%,40%,40%,0,found,
+143,Raakvlak,raakvlak.com/nl,8,-12%,-12%,-12%,0,found,
+144,BastLeads.com,bastleads.com,6,-14%,-14%,20%,0,found,
+145,Wemagine internetbureau,wemagine.nl,3,0%,0%,-25%,0,found,
+146,The BRND Shop,thebrndshop.nl,,,,,,not_found,no exact match on name or domain search
+147,De Nederlandse Debatclub,denederlandsedebatclub.nl,1,,,,,found,solo operator confirmed
+148,Sparketeers,sparketeers.nl,6,-25%,-50%,-50%,0,found,LinkedIn page title shows as DeOnlineStrateeg.nl (older name); About text (e-mailmarketing) matches Sparketeers
+149,Adventure Media Group,adventure.nl,6,0%,20%,20%,0,found,
+150,immerse.nl,immerse.nl,4,0%,0%,0%,0,found,LinkedIn company is Immerse Merkversnellers
+151,wars | creatief bureau,wars.nl,2,-33%,-33%,0%,0,found,
+152,PureDigital,puredigital.nl,16,14%,33%,77%,0,found,strong growth signal
+153,MIAX (Oprichter & Eigenaar - Digitaal strateeg),miax.nl,2,0%,0%,0%,0,found,LinkedIn company is MIAX Digital Marketing Agency Haarlem
+154,Luctor Online,luctor.online,6,0%,0%,25%,0,found,
+155,FBI The Advertising Company,thefbi.nl,6,0%,0%,-14%,0,found,LinkedIn company is FBI Reclame
+156,EcomSEO,ecomseo.co,7,-16%,-16%,-37%,0,found,confirms shrinking pattern noted in runbook
+157,Hauwert Consulting,hauwertconsulting.com,,,,,,not_found,no exact match on name or domain search
+158,Marketing Storm,marketingstorm.nl,7,-28%,-16%,150%,0,found,
+159,Space'M Online,spacemonline.com,9,-18%,0%,0%,0,found,
+160,The Luxury Creators,theluxurycreators.com,,,,,,not_found,no exact match on name or domain search
+161,Funnel Labs,funnel-labs.nl,6,0%,-25%,-33%,0,found,confirms shrinking pattern noted in runbook
+162,Nudam Advies,nudam.nl,5,,,,,low_confidence,"exact name match but LinkedIn industry is Oil and Gas (energy advisory), not marketing agency - profile mismatch"
+163,Google Advies,geertgroot.nl,1,,,,,found,solo operator confirmed; LinkedIn company is Geert Groot
+164,MOOS Solutions,pilotfish.eu,50,-2%,2%,4%,0,found,"name search found unrelated Data Infra company; domain search found Pilotfish (Design Services), used that instead"
+165,AF Design,andrefraiquin.nl,8,0%,0%,14%,0,found,
+166,KHAN Multicultural Marketing,kmcm.nl,2,0%,0%,0%,0,found,
+167,SIXD Media Group,6dgmediagroup.nl/en,0,,,,,found,LinkedIn shows 0 employees now (was 1 as of stale Aug 2024 data) - appears defunct/inactive page
+168,Rizom,rizom.ai,5,,,,,low_confidence,0 results with NL filter; found Rizom (Business Consulting/knowledge infrastructure) globally but no clear NL location shown - not clearly the same company
+169,GoPixels.nl,gopixels.nl,17,13%,112%,240%,0,found,standout strong growth story
+170,Gemini Design,geminidesign.nl,19,-5%,-9%,-17%,0,found,
+171,KGOM,kgom.nl,41,-2%,0%,-2%,0,found,
+172,Qonnect Agency,qonnect.agency,4,0%,33%,100%,1,found,
+173,SUM Digital,sumdigital.co,16,0%,-23%,-27%,2,found,
+174,Content Musketeers,vandongen-online.nl,3,0%,0%,-25%,0,found,
+175,AddMark,addmark.nl,8,0%,14%,14%,0,found,
+176,AdamoDigi,adamodigi.com/en,,,,,,not_found,"no exact match on name or domain; ADAMO (ad network) is a stretch, not clearly the same company"
+177,Juist,juist.nl,49,4%,2%,-7%,0,found,
+178,Newfive - Shopify Agency,newfive.nl,9,50%,80%,125%,0,found,standout strong growth story (E-commerce/Shopify agency)
+179,Webleads B.V.,webleads.nl,20,-13%,-13%,-16%,0,found,
+180,Coffee Digital,coffeedigital.nl,7,40%,75%,75%,0,found,strong growth story
+181,Onlinerz,onlinerz.nl,2,-33%,0%,0%,0,found,
+182,.CREW,yourcrew.online,24,-4%,0%,37%,0,found,
+183,Vandeez Creative Agency,vandeez.nl,6,0%,0%,-14%,0,found,
+184,Eigenaar (pulseagency.nl),pulseagency.nl,10,0%,42%,42%,0,found,LinkedIn company is Pulse - Digital Marketing
+185,MarketingKarwei,marketingkarwei.nl,31,4%,-24%,-18%,1,found,
+186,Redmatters,redmatters.com,16,0%,0%,14%,1,found,
+187,Studio Noord Drachten,studionoorddrachten.nl,1,,,,,low_confidence,"exact name+location match but LinkedIn industry is Photography (daylight studio rental), not marketing agency - profile mismatch"
+188,ON. Digital Marketing,ondigitalmarketing.nl,60,3%,7%,11%,0,found,
+189,DesignSmile,designsmile.nl,3,0%,0%,-25%,0,found,
+190,Double Together,doubletogether.com,1,,,,,found,solo operator confirmed
+191,SEM agency,sem-agency.nl,10,0%,-9%,-9%,1,found,
+192,Boax | online marketing,boaxonline.nl,3,0%,0%,50%,0,found,
+193,Multiscope,multiscope.nl,35,6%,6%,12%,1,found,"industry shown as Market Research, adjacent field"
+194,BORING,odb.nl,11,57%,22%,83%,0,found,strong growth story
+195,TopLine Marketing,compassdigital.nl,7,0%,0%,0%,0,found,LinkedIn company is Compass Digital
+196,Het Campagnehuis,hetcampagnehuis.nl,3,0%,0%,0%,0,found,
+197,Magneet | Digital Agency,bureaumagneet.nl,10,0%,25%,66%,1,found,strong growth story
+198,Fellow,fellowtool.nl,2,,,,,low_confidence,"exact domain match but LinkedIn shows Fellow Tool as social media management SaaS (Software Development), not a marketing agency"
+199,Optimum Sales BV,upmarketingagency.nl,,,,,,not_found,"no exact match on name, domain-derived UP Marketing (Fundraising), or Optimum Sales variants"
+200,Mint Marketing,mintmarketing.nl,4,0%,0%,0%,0,found,LinkedIn company is MINT Agency
+201,We Talk SEO B.V.,wetalkseo.nl,17,6%,13%,21%,0,found,
+202,ARCHANA.NL,archana.nl,3,0%,0%,0%,0,found,
+203,WEBSTRIJD,webstrijd.nl,4,0%,33%,-20%,0,found,
+204,Interieurbeplanting Engelmoer,interieurbeplanting.nl,2,,,,,low_confidence,"exact name+domain match but this is an office-plant/greenery company (Facilities Services), not a marketing agency - likely data error in original scrape"
+205,The Fully Bookers,thefullybookers.com,16,0%,14%,14%,0,found,
+206,YUCONVR,yuconvr.com,8,14%,33%,33%,1,found,"3D visualization/media production for real estate, adjacent creative field"
+207,GETTING THE MARKET,gettingthemarket.com,12,-10%,-10%,28%,0,found,
+208,STUDIO ØUTLIER,studio-outlier.com,8,75%,75%,N/A (overflow artifact),0,found,"2y growth showed LinkedIn INT_MAX overflow (2,147,483,647%) - divide-by-zero artifact since company had 0 employees 2yr ago; industry shown as Market Research"
+209,VLC Agency,vlc-agency.com,,,,,,not_found,"no exact match on name, domain, or VLC alone"
+210,Peakfort,peakfort.nl,17,-10%,-32%,-41%,0,found,significant shrinking pattern
+211,Growth Boost Lab,growthboostlab.nl,3,0%,0%,-40%,0,found,
+212,GrowProud,growproud.nl,11,-21%,-26%,-15%,0,found,shrinking pattern; industry shown as growth consulting for manufacturing (adjacent field)
+213,LUX BRANDS,luxbrands.nl,6,0%,0%,0%,0,found,
+214,Manufesta,manufesta.nl,3,0%,0%,0%,0,found,
+215,Falqon Creative,falqon.nl,2,0%,0%,0%,0,found,
+216,Podcast Jungle,podcastjungle.nl,2,-33%,-50%,-50%,1,found,"industry shown as podcast/media production, adjacent field"
+217,Loyalty Profs,loyaltyprofs.nl,7,0%,0%,0%,0,found,
+218,Skywala Media,skywalamedia.com,2,0%,-33%,-33%,0,found,
+219,CustomerScope,customerscope.nl,4,0%,0%,33%,1,found,
+220,Boost Online,boostonline.nl,3,0%,50%,50%,0,found,
+221,Pencilpoint,pencilpoint.nl,8,0%,-11%,-20%,0,found,
+222,Tasmanic,tasmanic.nl,4,0%,0%,0%,0,found,
+223,Aibureau,aibureau.nl,4,0%,33%,N/A (overflow artifact),0,found,"2y growth showed LinkedIn INT_MAX overflow - new company, 0 employees 2yr ago; AI-powered marketing consultancy for SMEs"
+224,Flexxmarketing B.V.,flexxmarketing.nl,8,33%,33%,60%,0,found,strong growth story
+225,Adcast Media,adcast.nl,2,0%,N/A (overflow artifact),N/A (overflow artifact),0,found,"1y and 2y growth showed LinkedIn INT_MAX overflow - very new company, 0 employees 1-2yr ago"
+226,Bureau Fris,bureaufris.nl,20,-9%,-9%,-16%,0,found,"industry shown as Market Research, adjacent field"
+227,SOL Studios,thecreatorshub.nl,12,20%,20%,20%,0,found,LinkedIn company is The Creators Hub
+228,The Online Hub,theonlinehub.nl,4,0%,0%,33%,0,found,
+229,Blue Flamingos,blueflamingos.nl,23,4%,9%,9%,0,found,
+230,Webgrade,webgrade.nl,18,0%,28%,28%,7,found,
+231,Nummer1webdesign,nummer1webdesign.nl,,,,,,not_found,0 results for name and domain search
+232,TNG Agency,tng.agency,8,0%,33%,300%,0,found,
+233,Lookgen.ai,ace.nl,6,,,,,low_confidence,"LinkedIn Lookgen.ai is an AI product-image SaaS tool (Technology/Internet industry), not a marketing agency; also name/domain mismatch (ace.nl vs lookgen.ai) suggests possible rebrand or wrong source row"
+234,Cantona,cantona.nl,10,-9%,0%,42%,1,found,
+235,PEAK Online Marketing,peakonlinemarketing.nl,9,12%,12%,50%,0,found,
+236,Kwalitiv,kwalitiv.nl,10,11%,-16%,-16%,0,found,
+237,Digital Wizards,digitalwizards.nl,8,0%,14%,-20%,0,found,
+238,Digitopa B.V.,digitopa.nl,12,20%,9%,9%,0,found,
+239,Fonkel Media,fonkelmedia.nl,5,-16%,-16%,-28%,0,found,
+240,Sageon,sageon.nl,9,0%,-18%,-25%,0,found,
+241,Vsee Search Marketing,vsee.nl,14,0%,16%,0%,0,found,
+242,Begeester,begeester.nl,2,0%,0%,0%,0,found,
+243,Di-visie | branding studio,di-visie.nl,2,0%,0%,0%,0,found,
+244,FFAnders Reclame,ffanders.nl,6,-14%,0%,0%,0,found,
+245,Maatwerk Online,maatwerkonline.nl,38,2%,26%,26%,1,found,
+246,2 in beweging,2inbeweging.nl,3,-25%,0%,0%,0,found,
+247,Whoohaa,whoohaa.nl,3,0%,N/A (overflow artifact),N/A (overflow artifact),0,found,"LinkedIn showed 2,147,483,647% growth bug for 1y and 2y (INT_MAX divide-by-zero artifact, company likely had 0 employees in comparison period)"
+248,4 yrs 6 mos,socialelite.agency,,,,,,not_found,"source name is a scrape artifact (tenure text, not company name); tried Social Elite name search and socialelite.agency domain search, both 0 results"
+249,The Golden Delicious,thegoldendelicious.nl,6,-14%,-14%,-14%,0,found,LinkedIn company is The Golden Delicious - Creative Lab
+250,Artiq Motion,artiqmotion.nl,6,20%,100%,200%,0,found,
+251,Aanpoters,aanpoters.nl,14,40%,40%,16%,1,found,
+252,performancebureau STROOM,stroom.com,59,-7%,-28%,-26%,0,found,
+253,Milestoners | Growth Agency,milestoners.nl,,,,,,not_found,"name search returned only unrelated Milestones-named companies; domain search returned unrelated fuzzy matches, no exact hit"
+254,Splynx - Creative Agency,splynx.nl,,,,,,not_found,name search autocorrects to unrelated Sphynx cat cafe; domain search 0 results
+255,Eigenaar,getbigmarketing.nl,3,0%,-25%,50%,0,found,source name was a scrape artifact (Eigenaar = Dutch for Owner); LinkedIn company is Get Big | Marketing & Webdesign
+256,Stichting CC,vanloof.nl,3,0%,0%,-25%,0,found,source name was a scrape artifact; LinkedIn company is Van Loof (project/campagnebureau)
+257,SPR Retail BV,sprretail.nl,18,,,,,low_confidence,"LinkedIn SPR Retail BV is a B2C/D2C/B2B e-commerce webshop operator (Retail industry), not a marketing agency"
+258,Endore Creative Agency,endore.agency,10,-9%,-16%,25%,0,found,
+259,Geen Blad voor de Mond,gbvdm.nl,202,1%,2%,4%,0,found,"much larger than typical dataset entry (202 employees, media/publishing house) but exact name match and industry-adjacent"
+260,MarketingMakkers,marketingmakkers.nl,25,4%,13%,25%,0,found,
+261,SHOCK Digital,shockdigital.nl,3,0%,0%,0%,0,found,
+262,Unify Media,davedragt.nl,2,0%,0%,0%,0,found,"source domain (davedragt.nl) differs from LinkedIn company name Unify Media, likely founder personal domain"
+263,Creative Boys Club,creativeboysclub.nl,4,0%,0%,0%,0,found,
+264,Get a Grip bv,get-agrip.nl,,,,,,not_found,"name too generic (117 results, no exact match); domain search 0 results"
+265,Giraffes 4 Zebras,giraffes4zebras.nl,12,-14%,-20%,-14%,0,found,
+266,dtc /always on,dtc.agency,22,0%,15%,46%,0,found,
+267,Ovide Agency,ovide.agency,20,11%,5%,25%,0,found,
+268,FANS TOMORROW,fanstomorrow.nl,9,-18%,-25%,-25%,0,found,
+269,SearchGeeks,searchgeeks.com,3,0%,0%,0%,0,found,
+270,Vetsocial,vetsocial.nl,10,66%,400%,400%,1,found,Dapper-tier growth story: +400% over both 1yr and 2yr
+271,Protocol Series,stayawake.nl,,,,,,not_found,name search returned unrelated companies; domain search 0 results
+272,Custom95 | Merchandise Agency,custom95.com/en,18,20%,20%,80%,1,found,
+273,Klikko,klikko.nl,,,,,,not_found,0 results for name and domain search
+274,Doelbewust Online Marketing,doelbewust.nl,9,0%,0%,0%,0,found,
+275,Clickables,clickables.nl,15,-11%,-21%,-31%,0,found,
+276,Daadkracht Marketing,daadkracht-marketing.nl,9,-30%,-40%,-40%,0,found,
+277,Flixit B.V.,flixit.nl,10,-16%,-23%,-9%,0,found,
+278,Business and Padel,sensmarketing.nl,,,,,,not_found,name/domain mismatch (Business and Padel vs sensmarketing.nl); neither Sens Marketing name search nor domain search found an exact match
+279,Brandgurus,brandgurus.nl,2,0%,0%,0%,0,found,
+280,Mediamaatje,mediamaatje.nl,4,33%,300%,300%,0,found,Dapper-tier growth story: +300% over both 1yr and 2yr
+281,Makepublic.studio,makepublic.studio,4,0%,-20%,0%,0,found,
+282,8th GEAR,8thgear.nl,8,0%,-11%,0%,0,found,
+283,Cherry Group B.V.,ifh-holding.nl,7,0%,0%,-30%,0,found,"LinkedIn shows as Cherry Group, trade name of IFH-Holding BV"
+284,Instant Connection | The Artvertising Agency,instantconnection.nu,,,,,,not_found,"tried name Instant Connection (10 unrelated results), Artvertising (0 exact), domain instantconnection.nu (0 results)"
+285,Pitmeesters,pitmeesters.nl,,,,,,not_found,name search autocorrects to unrelated museum; domain search 0 results
+286,Jasperdeweerd.nl,jasperdeweerd.nl,,,,,,not_found,name search matched unrelated liveband (GiGA liveband); domain search 0 results
+287,Wikimailers,wikimailers.com,2,0%,0%,0%,0,found,
+288,DoeMeer,doemeer.nl,1,,,,,found,solo operator confirmed
+289,ByFreckles,byfreckles.nl,2,0%,100%,100%,0,found,
+290,Content AI Masters,contentaimasters.com,4,,,,,low_confidence,"LinkedIn Content AI Masters is an AI content-automation SaaS/tech company (Technology/Internet industry), not a marketing agency"
+291,Bloomz,studiobloomz.nl,,,,,,not_found,name search (Studio Bloomz) autocorrects to unrelated studio bloom results; domain search 0 results
+292,Mokube,mokube.com,3,,,,,low_confidence,"LinkedIn Mokube is a Software Development company (business automation tooling), not a marketing agency"
+293,Online Sale Specialist,onlinesalespecialist.nl,4,100%,100%,100%,0,found,
+294,Ros Web,ros-web.nl,4,0%,33%,33%,0,found,
+295,Seen Advertising Agency,seenadvertising.agency,3,0%,50%,0%,0,found,
+296,Social Envoy,socialenvoy.nl,2,,,,,low_confidence,"LinkedIn Social Envoy is a change-management/business consulting company (Simplifying and Humanizing Change), not a marketing agency"
+297,Leadbeat,leadbeat.io,1,,,,,found,solo operator confirmed
+298,Het DM Bureau,hetdmbureau.nl,6,0%,0%,20%,0,found,
+299,Mr. Fox creative agency,mrfox.agency,3,0%,0%,0%,0,found,
+300,Pole Position Agency,exito-ai.com,4,-20%,-20%,0%,0,found,
+301,insurance-DB,adpeako.com,,,,,,not_found,source name is a scrape artifact; domain-derived name Adpeako returned 0 results
+302,WYS | B2B Marketing,wijzijnwys.nl,5,0%,0%,-16%,0,found,
+303,QB The Agency,qbtheagency.nl,,,,,,not_found,name search autocorrects to unrelated agencies; domain search 0 results
+304,PaperDigits,paperdigits.nl,18,-14%,-14%,-21%,2,found,
+306,AigamingFilms.com,aigamingfilms.com,2,0%,0%,0%,0,found,
+312,Zeo,zeo.nl,19,0%,-5%,-13%,0,found,
+371,Content Ruimte,clipcraft.nl,3,0%,0%,+50%,0,found,"LinkedIn name is Clipcraft Agency; Marketing Services, About text matches content/personal branding agency"
+342,MSAI Personal Design,msaidesign.com,2,N/A (overflow artifact),N/A (overflow artifact),N/A (overflow artifact),0,found,"AI-powered commercial/ad production co (Graphic Design category on LinkedIn); growth % hit INT_MAX overflow bug (2,147,483,647%)"
+313,Zorg voor Verzuim,zorgvoorverzuim.nl,4,,,,,low_confidence,"LinkedIn company is Hospitals and Health Care (verzuimmanagement/absence-management consultancy), not a marketing/creative agency"
+343,Review Booster,grow.review-booster.nl,,,,,,not_found,name search returned unrelated HR/staffing company; domain search 0 results
+314,outranq.ai,outranq.ai,,,,,,not_found,0 results for name outranq (LinkedIn autocorrected to unrelated outrank); 0 results for domain outranq.ai
+307,,am-digitalmarketing.com,8,14%,100%,166%,0,found,source row had blank name; LinkedIn company is AM Digital Marketing
+372,SmartRanking,smartranking.nl,18,0%,-10%,-5%,0,found,"LinkedIn name SmartRanking - SEO agency; Marketing Services, matches SEO agency niche"
+315,Amaii,amaii.nl,3,,,,,low_confidence,"LinkedIn company is IT Services and IT Consulting (AI company-brain / private AI environment product), not a marketing/creative agency"
+344,The Label Show,alvasi.nl,3,,,,,low_confidence,"exact name match, Printing Services (custom stickers/labels), 3 employees, but company website is thelabelshow.nl not alvasi.nl (expected domain 0 results/autocorrected to malvasi.nl) - domain mismatch, industry not marketing agency"
+316,OfficeNext,originem.io,,,,,,not_found,"name OfficeNext matches unrelated Retail Office Supplies and Gifts company (1 employee), not the domain; domain-derived name originem returned 0 results"
+373,Committos,blauwemonsters.nl,4,0%,N/A (overflow artifact),N/A (overflow artifact),0,found,"LinkedIn name Committos matches exactly; Marketing Services, e-commerce marketplace growth agency; source domain blauwemonsters.nl differs from LinkedIn co name but exact name+industry match confirms; 1y/2y growth hit INT_MAX overflow bug"
+317,TD Media Agency,tdmedia.io,3,0%,0%,50%,0,found,
+345,Buro Goedwijs,burogoedwijs.nl,0,0%,0%,0%,0,found,"source name blank, matched by domain-derived name; branding & creatie agency (Graphic Design category), 0 employees on LinkedIn"
+318,Next Peak Media,nextpeakmedia.nl,,,,,,not_found,no exact match; name search returned only unrelated PEAK XV Exhibits and Neurova AI; domain search nextpeakmedia returned 0 results
+374,Barrr,underdog.nl,16,0%,-11%,+6%,1,found,"Source name Barrr did not match (unrelated furniture/rugby results); found via domain search - LinkedIn co name is lowercase underdog, Advertising Services, website confirmed underdog.nl"
+309,Cheerleader Agency,cheerleader.agency/en,2,0%,-33%,100%,0,found,
+346,DAG Agency,dag-agency.com,2,0%,-33%,0%,0,found,
+375,Nomis Marketing,nomismarketing.nl,,,,,,not_found,0 results for name search and domain search (nomismarketing) with NL filter
+319,MUZE Marketing Solutions,muzemarketing.nl,2,0%,0%,100%,0,found,
+347,Web Alchemist,webalchemist.nl,,,,,,not_found,name search 0 results; domain search 0 results
+376,Codigital,bartoosterveer.nl,6,0%,+20%,+100%,0,found,"Exact name match Codigital, Technology/Internet industry, About describes digital agency (brands/websites/webshops/apps/platforms); source domain bartoosterveer.nl (likely founder personal domain) differs but name match is exact and unique"
+348,Leadgate Europe,leadgate.eu,22,0%,-12%,-12%,0,found,"source name blank, matched by domain-derived name; online marketing agency for IT/Tech/SaaS"
+377,Eventhub.,eventhub.net,,,,,,not_found,"name too generic (81 unrelated results, no exact match); domain search 0 results"
+349,WebNexus Webdesign,ecoteers.nl,,,,,,not_found,"source name likely scrape mismatch vs domain; name search 0 results, domain search 0 results"
+320,Tomahawk | Breaking Through Borders,tomahawk.nl,18,5%,12%,38%,0,found,"LinkedIn industry tag is Technology/Internet but About text confirms e-commerce marketing/data/tech agency, matches digital marketing agency profile"
+310,STUDIO SCOTT,studioscott.co,4,0%,0%,0%,0,found,
+350,Salazar | Strategisch marketing bureau,salazarmarketing.nl,4,-20%,100%,300%,0,found,"strong growth story: +100% 1yr, +300% 2yr"
+378,Wolf Online Marketing,wolfonlinemarketing.com,7,+16%,+16%,+40%,0,found,"Source name was blank; found via domain-derived name Wolf Online Marketing, exact match, Marketing Services"
+321,Bureauvijftig,bureauvijftig.nl,9,-10%,-10%,-25%,0,found,
+379,Reelin,reelintalent.com,9,,,,,low_confidence,"LinkedIn company Reelin (matches domain reelintalent.com) is Staffing and Recruiting - an overseas talent headhunter agency, not a marketing/creative agency"
+351,The Nudgency,thenudgency.com,2,0%,0%,N/A (overflow artifact),0,found,"2-year growth hit INT_MAX overflow bug (2,147,483,647%)"
+380,WATS Studio,watsstudio.com,2,0%,N/A (overflow artifact),N/A (overflow artifact),0,found,"Exact name match; Business Consulting and Services industry but About text describes marketing/brand/digital transformation consultancy; small team (2), 1y/2y growth hit INT_MAX overflow bug"
+311,JUNE THE AGENCY,juneagency.co,3,-25%,-25%,-25%,0,found,
+322,Unform,unform.agency,8,-11%,-11%,-20%,0,found,
+352,Polaris Growth,polarisgrowth.com,6,-14%,-25%,50%,0,found,Klaviyo CRM/CRO e-commerce growth agency
+305,My Network,sjcreations.nl,,,,,,not_found,"name too generic (40+ unrelated results, no exact match); domain sjcreations.nl 0 results"
+381,0to9,0to9.nl,44,0%,+10%,+18%,1,found,"LinkedIn name 0to9 | Values-Driven Creativity, exact match, Advertising Services"
+323,Tows Online Marketing,tows.nl,2,0%,0%,0%,0,found,
+353,Hello Growth,hellogrowth.ai,2,0%,0%,0%,0,found,AI-driven growth marketing agency
+324,(ink).,ink.team,,,,,,not_found,"name ink too generic (273 results); domain ink.team returned 20 results, none an exact (ink) agency match"
+354,Newline Solutions BV,deskservices.nl,2,,,,,low_confidence,"exact name match but LinkedIn industry is IT Services/IT Consulting (IT partner for SMEs), not marketing agency; domain deskservices.nl did not match this or any related company (0 results, autocorrected to unrelated firms)"
+382,100procent,100procent.nl,25,+4%,-26%,-28%,1,found,"LinkedIn name 100procent | United Playgrounds, exact match, Marketing Services"
+383,ARA,ara.nl,,,,,,not_found,"name too generic (87 results, unrelated industries e.g. Transportation/Logistics); domain ara.nl search surfaced only Ara/araontwerpt.nl, a 1-employee architecture drafting office - different domain and industry, not a marketing agency match"
+355,NOA collective,noacollective.com,8,14%,33%,14%,0,found,impact/growth marketing collective
+325,JijOnline,digitaalgroeien.nl,5,0%,-28%,-16%,0,found,"LinkedIn industry tag Technology/Internet but About text confirms online growth/digital marketing help, matches domain digitaalgroeien.nl"
+308,Kult&Ace - Youth & Culture Consultancy,kultandace.com,12,9%,-20%,-20%,0,found,LinkedIn company is Kult&Ace - Youth & Culture Agency
+384,Brand Potential,brandpotential.com,73,+1%,+12%,+4%,0,found,"LinkedIn name Brand Potential Benelux, exact match, Marketing Services"
+356,The Young Digitals,theyoungdigitals.nl,49,0%,-3%,-5%,0,found,digital marketing agency with social impact mission
+326,Yellowlab,yellowlab.nl,7,0%,0%,0%,0,found,
+357,Bureau Busskruit,bureaubusskruit.nl,,,,,,not_found,name search 0 results; domain search 0 results
+385,Buro Bruut,burobruut.nl,9,+28%,+125%,+200%,0,found,"Exact name match, Advertising Services; strong headcount growth story (+200% over 2y)"
+327,Piek Marketing,piekmarketing.nl,2,0%,0%,100%,0,found,
+358,Aigency Amsterdam | AI Agency,aigency.amsterdam,4,0%,-20%,33%,0,found,AI creative studio (synthetic media/AI photography/video)
+328,Business Innovator - Business Intermediair,businessintermediair.nl,2,,,,,low_confidence,"LinkedIn company is Business Consulting and Services (general business advisory bureau), not a marketing/creative agency"
+386,Buro voor de Boeg,burovoordeboeg.nl,15,+7%,+15%,+15%,0,found,"Exact name match, Advertising Services"
+359,The Goodplace,thegoodplace.nl,8,33%,33%,33%,0,found,"digital creative agency, Utrecht"
+329,Online Marketing Agency Stramark,stramark.nl,10,0%,-9%,-23%,0,found,
+387,Campagne,campagne.nl,40,+2%,+2%,+5%,0,found,"Exact top match, Advertising Services"
+360,Weddingcontent.nl,eeghency.nl,9,0%,0%,0%,0,found,"source name was a scrape artifact; actual LinkedIn company is Eeghency.nl, a performance marketing bureau"
+330,PureDigital,puredigital.nl,16,14%,33%,77%,0,found,Strong growth story: +77% headcount over 2 years
+361,Revora,gogetdigital.nl,1,,,,,found,"solo operator confirmed; source name Revora was a mismatch/artifact, actual LinkedIn company is Go Get Digital (marketing services)"
+388,Clubgeist,clubgeist.nl,15,-25%,-11%,-16%,0,found,"Exact name match, Advertising Services; shrinking headcount across all periods"
+331,HATTER,hatteragency.com,9,-10%,-18%,-18%,0,found,"LinkedIn industry tag Events Services (brand experience agency), matches domain hatteragency.com"
+362,Mediabureau jungmeister,jungmeister.nl,3,N/A (overflow artifact),N/A (overflow artifact),N/A (overflow artifact),0,found,next-gen media agency (AI + data); all 3 growth periods hit INT_MAX overflow bug
+389,Dapper,dapper.agency,66,+8%,+35%,+132%,8,found,"Exact match confirmed via website link (dapper.agency); Dapper - the demand agency, Advertising Services (B2B demand gen); numbers double-checked via two independent find queries, both consistent; benchmark exceptional growth case as flagged - +132% over 2y, actively hiring (8 open roles)"
+363,Zorg en Zekerheid Leiden Basketball,hartvoordezaak.nl,12,0%,0%,-14%,0,found,"source name was a scrape artifact (basketball sponsorship logo caption), resolved via domain: actual LinkedIn company is Hart Voor De Zaak, an Advertising Services/branding agency - domain confirmed via website link on account page"
+332,Hide and Seek,hide-and-seek.com,32,-3%,0%,-13%,0,found,"source name AND CREATIVE was a scrape artifact/mismatch; a separate unrelated LinkedIn company named AND CREATIVE exists (and-creative.agency, 4 employees) but domain hide-and-seek.com matches Hide and Seek, Advertising Services, Amsterdam"
+390,Das Buro,dasburo.nl,14,-6%,-6%,+7%,0,found,"LinkedIn name Das Buro | Branding agency, exact match, Advertising Services"
+364,Re:publish,republish.nl,8,0%,14%,14%,0,found,conversion marketing network
+333,The Success Agency,thesuccessagency.nl,,,,,,not_found,"name too generic (399 results, no exact match); domain search thesuccessagency fell back to same generic query with no exact match"
+365,Marketing Connects,marketingconnects.nl,,,,,,not_found,"too generic name (981 unrelated results, no exact match); domain search 0 results"
+391,Digital Growth Agency,digitalgrowthagency.nl,54,+14%,+10%,+42%,5,found,Exact name match; industry tag Technology/Internet but About describes digital growth marketing agency
+334,nxt agency,nxt.agency,12,0%,33%,50%,0,found,
+335,Erik van der Veen Internet Marketing,erikvanderveen.nl,1,,,,,found,"solo operator confirmed (LinkedIn shows 0 employees listed; About text: SEA/Google Ads/PPC specialist); source name was blank, found via domain-derived name search"
+366,Dirk doet,dirkdoet.nl,7,16%,16%,16%,0,found,
+392,Digital Impact,digitalimpact.nl,32,+6%,+10%,+18%,1,found,"Exact name match; industry tag Information Technology & Services, About describes marketing+technology+AI convergence agency"
+336,oomagent.ai,oomagent.ai,,,,,,not_found,0 results for name/domain oomagent; oomagent.ai search returned only unrelated Fixed By Bookie
+367,ZIGZAG,zigzagreclame.nl,2,-33%,-33%,-33%,0,found,co-creative branding/advertising agency
+393,DPDK,dpdk.com,44,-18%,-18%,-22%,3,found,"Exact name match, Marketing Services; shrinking headcount across all periods but actively hiring (3 open roles)"
+337,NJ Creative,nj-creative.com,3,50%,0%,0%,0,found,
+368,One Online Marketing,oneonline.nl,13,0%,-7%,0%,4,found,
+338,Amsterdam UMC,amsterdamumc.org,17000,,,,,low_confidence,"LinkedIn company is Amsterdam UMC hospital (17K+ employees, Hospitals and Health Care), clearly not a marketing agency - likely a data-quality issue in source dataset"
+394,E-heroes,e-heroes.com,5,0%,0%,-16%,0,found,"Exact name match, Advertising Services"
+369,Draft Digital,draftdigital.nl,16,-5%,33%,128%,0,found,"strong growth story: +33% 1yr, +128% 2yr; digital marketing craftsmanship agency founded 2023"
+395,Evers + de Gier,eversendegier.nl,5,0%,+25%,+25%,0,found,"Exact name match, Design Services, branding/digital agency Rotterdam"
+339,Brandbuddies,brandbuddies.nl,4,0%,33%,33%,0,found,"source name Casa dei Contadini was a scrape artifact (0 results); found via domain brandbuddies, real LinkedIn company name is BRANDBUDDIES"
+370,Creative Journeys,creativejourneys.nl,,,,,,not_found,"too generic name (377 unrelated results, no exact match); domain search 0 results"
+340,Exito,exito-agency.nl,4,0%,-33%,0%,0,found,"source name was a bracket placeholder; found via domain, real LinkedIn company name is Exito"
+396,Fabrique,fabrique.nl,132,+3%,-7%,-2%,0,found,"Exact top match, Design (strategic design agency)"
+341,Gorrión Mensajero,gorrionmensajero.nl,,,,,,not_found,0 results for both name Gorrión Mensajero and domain gorrionmensajero
+397,Flatland,flatland.nl,28,0%,+7%,0%,0,found,"Exact top match, Design Services, design-driven consultancy"
+398,Friends for Brands,friendsagency.com,19,+11%,+26%,+26%,0,found,"Exact match, Friends for Brands | Certified B Corp, Advertising Services, creative agency founded 2013; strong growth"
+399,Harborn digital,harborn.com,39,-9%,+14%,+25%,2,found,"Exact name match, digital agency (Internet Publishing category)"
+409,RAUWcc,rauwcc.nl,19,0%,+11%,-5%,0,found,
+400,Hashtag Junkies,hashtagjunkies.nl,13,-5%,-1%,-13%,0,found,
+417,Studio Piranha,studiopiranha.com,4,+33%,+33%,+100%,0,found,"Exact name match, Design Services, Studio Piranha | Merkdesign bureau"
+410,Redkiwi,redkiwi.com,55,+1%,-1%,+3%,0,found,
+418,The Conversion Department,theconversiondepartment.nl,14,+16%,+27%,+7%,0,found,"Exact name match, Advertising Services"
+411,Rotterdam CS,rotterdamcs.nl,6,+200%,N/A (overflow artifact),N/A (overflow artifact),0,found,1y and 2y growth hit INT_MAX 2147483647% divide-by-zero bug
+401,Hear The Youth,heartheyouth.com,14,0%,7%,40%,0,found,
+419,The Phoney Club,thephoneyclub.com,8,+14%,0%,+60%,0,found,"Exact name match, Design Services, independent design studio"
+412,ROX,rox.nl,4,0%,0%,0%,0,found,"matched via LinkedIn name ""ROX Branding | Fullservice branding & marketing agency"" (generic ROX name had many results, disambiguated by name/industry match)"
+420,Trichis,trichis.nl,17,+13%,-5%,0%,0,found,"Exact match Trichis Content & Creatie, Marketing Services"
+402,Level Level,level-level.com,29,11%,11%,11%,0,low_confidence,"industry listed as Technology/Web dev (WordPress agency), not classic marketing/creative agency"
+413,Snip Snap,snipsnap.nl,17,0%,+30%,+41%,0,found,
+403,Marketing Engineers,marketingengineers.nl,7,0%,16%,0%,0,found,
+421,Wild Digital,wild-digital.com,7,-12%,0%,+16%,0,found,"Exact name match, Design Services, brand and design agency for purpose-driven tech companies EMEA"
+414,Somention,somention.com,55,+7%,+7%,+1%,5,found,
+422,YesContent,yescontent.nl,5,0%,0%,0%,0,found,"Exact name match, Advertising Services, branding studio"
+404,Nijgh,nijgh.com,39,-7%,-9%,0%,3,found,
+415,STUDIO 10am,studio10am.nl,2,+100%,+100%,+100%,0,found,"very small base (2 employees), 100% reflects doubling from 1"
+416,Studio Nul,studionul.com,,,,,,not_found,"name search returned unrelated companies (Studio Vogels, Blik van Boven, etc), domain search studionul.com returned 0 results"
+423,Youwe,youwe.com,225,-2%,-5%,-12%,50,found,"Exact match, Technology/Internet, full-service digital agency; larger established player as expected"
+405,Norday,norday.nl,54,0%,8%,17%,0,found,"LinkedIn page still listed as GRRR (now Norday) - merged entity, formerly GRRR+IN10 rebrand"
+424,Artdcom,artdcom.com,8,+14%,+14%,+60%,0,found,"Exact name match ArtdCom, Advertising Services, full-service digital marketing agency"
+406,Pionect,pionect.com,16,-5%,0%,23%,2,found,"industry listed as IT Services/IT Consulting (digital/dev agency), not classic marketing agency"
+407,PRSC. Vastgoedcommunicatie,prsc.nl,21,10%,10%,23%,0,found,
+408,Q42,q42.nl,125,-1%,3%,14%,11,found,
